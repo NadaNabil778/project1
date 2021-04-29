@@ -1,0 +1,160 @@
+*{
+    padding: 0;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    height: auto;
+    font-family: 'segoe ui light';
+}
+.home{
+    background-image: url(../shutterstock_277750193.jpg);
+    background-size: 100% 100%;
+    overflow: hidden;
+  
+}
+
+.home .caption{
+    color: #fff;
+
+   
+    margin: 100px;
+text-align: center;
+height: 90vh;
+margin: auto;
+padding-top: 150px;
+
+
+}
+.home .caption h2{
+font-size: 200%;
+
+}
+.home .caption p{
+    font-family: 'Dancing Script', cursive;
+    font-size: 230%;
+}
+.home .caption .a{
+    margin-top: 20px;
+}
+.home .caption .a a{
+    padding: 15px 20px;
+   background-color: #fff;
+   color: black;
+   text-decoration: none;
+   margin: 3px;
+}
+.home .caption .a .a1{
+    background-color: #c1ab84;
+}
+ .nav-bar{
+  background-color: rgba(0, 0, 0, 0.5);
+     color:#fff;
+   
+     overflow: hidden;
+ }
+ .nav-bar .logo{
+     
+     width: 20%;
+     float: left;
+ }
+ .nav-bar .logo img{
+    height: 40px;
+ }
+ .nav-bar .items{
+     
+     width: 80%;
+     float: left;
+    
+ }
+ .nav-bar .items ul{
+list-style: none;
+float: right;
+ }
+ .nav-bar .items ul li{
+     float: right;
+     margin: 15px 20px;
+ }
+ /*End of home section design */
+ .discover{
+  
+     overflow: hidden;
+     height: auto; ;
+ }
+ .discover .chef{
+   
+     width: 40%;
+     float: left;
+ }
+ .discover .chef-caption{
+    
+     width: 60%;
+     float: left;
+     text-align: center;
+     margin-top: 300px;
+ }
+ .discover .chef img{
+     width: 100%;
+ }
+ span{
+     color: #f2ce08;
+     font-weight: 400;
+     font-family:'Dancing Script', cursive ;
+     font-size: 28px;
+ }
+ .discover .chef-caption p{
+    color: #868686;
+    padding: 40px;
+    font-size: 18px;
+ }
+ .discover .chef-caption a {
+     color: #000;
+    text-decoration: none;
+   padding: 15px 20px;
+  background-color: transparent;
+  border: 2px solid #000;
+
+   
+ }
+ /*End of discover section design */
+.out-door{
+    background-image: url(../bgs.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 400px;
+}
+.meals{
+    
+    overflow: hidden;
+    height: 500px;
+    margin-top: 100px;
+}
+.meals .meal{
+    
+    width: 25%;
+    float: left;
+}
+.meals .meal{
+    text-align: center;
+}
+
+.meals .meal img{
+    
+   border-radius: 50%;
+}
+.meals .meal .under-line{
+  height: 2px;
+    background-color: #868686;
+    width: 60%;
+    margin: auto;
+    margin-top: 5px;
+    
+}
+.meals .meal p{
+    color: #868686;
+    margin-top: 30px;
+}
+.meals h3{
+margin-top: 20px;
+}
+/*End of meals section design */
